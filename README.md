@@ -1,2 +1,2 @@
 # BashBash
-Server Management Bash Scripts
+Linux Server Management Bash Scripts for everyone
