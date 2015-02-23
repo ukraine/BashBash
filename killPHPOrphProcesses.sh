@@ -1,0 +1,2 @@
+/bin/ps -Ao"command,pid,ppid"|/bin/grep ' 1$'|/bin/grep /php|/bin/awk '{ print $2; }'|/usr/bin/xargs --no-run-if-empty kill -9
+# mail mymail@mydomain.com -s "Server Name: php orphaned processes have been removed. This email is a confirmation of the command executed"
